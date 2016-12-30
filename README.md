@@ -1,6 +1,16 @@
 # srv-mon-api-example
 api example for mongo-express-nodejs
 
+# Dependencies
+- nodejs
+- npm
+- mongodb
+- mongoose
+- express
+- node-restful
+- body-parser
+- nodemon
+
 # Note: MongoDB
 You will need a mongodb instance with the database api-db created before the api will work locally.
 
@@ -33,5 +43,5 @@ mongoose.connect('mongodb://localhost/api-db');
 - You can now navigate to http://localhost:3000/api/servers to access the server collection backed by mongodb.
   It is enabled for RESTful http interface with standard GET,PUT,POST,DELETE available through a client like Postman.
   
-ssss- It was useful to utilize the serverSchema to template the POST request during testing. It can be found in `api/models/server.js`
+- It was useful to utilize the serverSchema to template the POST request during testing. It can be found in `api/models/server.js`
 
