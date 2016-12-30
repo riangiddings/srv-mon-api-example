@@ -24,7 +24,14 @@ mongoose.connect('mongodb://localhost/api-db');
 - Use npm to install the required packages with the command:
 > `npm install`
 
-- Open a cmd window to the current working directory and start nodemon:
+- Open a cmd console to the srv-mon-api-example directory  and start nodemon:
 > `nodemon api/host.js`
 
-- Your console should display a success message with the port number the api is hosted on
+- Your cmd console should display a success message with the port number the api is hosted on
+> `API is running on port 3000.`
+
+- You can now navigate to http://localhost:3000/api/servers to access the server collection backed by mongodb.
+  It is enabled for RESTful http interface with standard GET,PUT,POST,DELETE available through a client like Postman.
+  
+ssss- It was useful to utilize the serverSchema to template the POST request during testing. It can be found in `api/models/server.js`
+
