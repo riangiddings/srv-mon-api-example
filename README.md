@@ -16,11 +16,15 @@ You will need a mongodb instance with the database api-db created before the api
 
 or...
 
-Point the mongodb endpoint in the host.js file to the endpoint of your own mongodb database connection.
+You can point the mongodb endpoint in the host.js file to your own mongodb endpoint.
 ```
 // MongoDb
 mongoose.connect('mongodb://localhost/api-db');
 ```
+
+# Note: nodemon
+You will need to install nodemon globally after having node/npm installed.
+
 # Setup
 - Utilizing `npm` install `nodemon` with the command:
 >`npm i -g nodemon`
