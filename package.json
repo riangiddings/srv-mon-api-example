@@ -1,0 +1,24 @@
+{
+  "name": "srv-mon",
+  "version": "0.0.0",
+  "description": "TEA server-monitor",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tea",
+    "server",
+    "monitor",
+    "srvmon",
+    "srv-mon"
+  ],
+  "author": "gidra (Rian A. Giddings)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.5",
+    "node-restful": "^0.2.5"
+  }
+}
